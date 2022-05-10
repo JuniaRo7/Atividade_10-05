@@ -22,6 +22,12 @@ public class App {
                                           .getQuantidade()     
 );
 
+        //criar um objeto do tipo Pedido 
+        Pedido pedido = new Pedido();
+        //adicionar um ItemPedido ao Pedido
+        pedido.adicionarItem(itemProd1);
+        //imprimir o valor total
+        System.out.println("Valor total: "+ pedido.obterTotal());
     }
     
 }
