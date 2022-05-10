@@ -20,7 +20,7 @@ public class App {
                                           .getValor() * 
                                           itemProd1
                                           .getQuantidade()     
-);
+        );
 
         //criar um objeto do tipo Pedido 
         Pedido pedido = new Pedido();
